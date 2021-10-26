@@ -1,7 +1,10 @@
 # INSECURE. Provided as an example only.
 on:
   pull_request_target
-
+  
+permissions:
+  write-all
+  
 jobs:
   build:
     name: Build and test
